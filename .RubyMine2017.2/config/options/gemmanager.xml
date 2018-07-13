@@ -1,0 +1,1280 @@
+<application>
+  <component name="GemManagerSettings" libraryVersion="4">
+    <sdk2gems sdk="ruby-2.3.3-p222">
+      <box url="file://$USER_HOME$/.gem/ruby/2.3.0/gems" />
+      <box url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems">
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/tilt-2.0.7" name="tilt" version="2.0.7" timestamp="1491096939045" parser_version="15" git="false">
+          <additional_info authors="&quot;Ryan Tomayko&quot;.freeze" email="&quot;r@tomayko.com&quot;.freeze" homepage="http://github.com/rtomayko/tilt/">
+            <summary>&quot;Generic interface to multiple Ruby template engines&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/tilt-2.0.6" name="tilt" version="2.0.6" timestamp="1489056230648" parser_version="15" git="false">
+          <additional_info authors="&quot;Ryan Tomayko&quot;.freeze" email="&quot;r@tomayko.com&quot;.freeze" homepage="http://github.com/rtomayko/tilt/">
+            <summary>&quot;Generic interface to multiple Ruby template engines&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/i18n-0.8.1" name="i18n" version="0.8.1" timestamp="1489021406056" parser_version="15" git="false">
+          <additional_info authors="&quot;Sven Fuchs&quot;.freeze, &quot;Joshua Harvey&quot;.freeze, &quot;Matt Aimonetti&quot;.freeze, &quot;Stephan Soller&quot;.freeze, &quot;Saimon Moore&quot;.freeze" email="&quot;rails-i18n@googlegroups.com&quot;.freeze" homepage="http://github.com/svenfuchs/i18n">
+            <summary>&quot;New wave Internationalization support for Ruby&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/power_assert-0.2.6" name="power_assert" version="0.2.6" timestamp="1480676060000" parser_version="15" git="false">
+          <additional_info authors="&quot;Kazuki Tsujimoto&quot;.freeze" email="&quot;kazuki@callcc.net&quot;.freeze" homepage="https://github.com/k-tsj/power_assert">
+            <summary>&quot;Power Assert for Ruby&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rails-5.0.0.1" name="rails" version="5.0.0.1" timestamp="1489021610423" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;Full-stack web application framework.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="actionview" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="activemodel" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="activerecord" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="actionmailer" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="activejob" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="actioncable" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="bundler" git="false" path="false" doRequire="true">
+            <bound version="1.3.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="sprockets-rails" git="false" path="false" doRequire="true">
+            <bound version="2.0.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/thor-0.19.4" name="thor" version="0.19.4" timestamp="1489021546026" parser_version="15" git="false">
+          <additional_info authors="&quot;Yehuda Katz&quot;.freeze, &quot;Jos\u{e9} Valim&quot;.freeze" email="&quot;ruby-thor@googlegroups.com&quot;.freeze" homepage="http://whatisthor.com/">
+            <summary>&quot;Thor is a toolkit for building powerful command-line interfaces.&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/mail-2.6.4" name="mail" version="2.6.4" timestamp="1489021493168" parser_version="15" git="false">
+          <additional_info authors="&quot;Mikel Lindsaar&quot;.freeze" email="&quot;raasdnil@gmail.com&quot;.freeze" homepage="https://github.com/mikel/mail">
+            <summary>&quot;Mail provides a nice Ruby DSL for making, sending and reading emails.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="mime-types" git="false" path="false" doRequire="true">
+            <bound version="1.16" bound="GREATER_OR_EQUAL" />
+            <bound version="4" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-rails-5.0.6" name="sass-rails" version="5.0.6" timestamp="1489056280384" parser_version="15" git="false">
+          <additional_info authors="&quot;wycats&quot;.freeze, &quot;chriseppstein&quot;.freeze" email="&quot;wycats@gmail.com&quot;.freeze, &quot;chris@eppsteins.net&quot;.freeze" homepage="https://github.com/rails/sass-rails">
+            <summary>&quot;Sass adapter for the Rails asset pipeline.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="4.0.0" bound="GREATER_OR_EQUAL" />
+            <bound version="6" bound="LESS" />
+          </dependency>
+          <dependency name="sass" git="false" path="false" doRequire="true">
+            <bound version="3.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="sprockets-rails" git="false" path="false" doRequire="true">
+            <bound version="2.0" bound="GREATER_OR_EQUAL" />
+            <bound version="4.0" bound="LESS" />
+          </dependency>
+          <dependency name="sprockets" git="false" path="false" doRequire="true">
+            <bound version="2.8" bound="GREATER_OR_EQUAL" />
+            <bound version="4.0" bound="LESS" />
+          </dependency>
+          <dependency name="tilt" git="false" path="false" doRequire="true">
+            <bound version="1.1" bound="GREATER_OR_EQUAL" />
+            <bound version="3" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/activemodel-5.0.0.1" name="activemodel" version="5.0.0.1" timestamp="1489021457541" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;A toolkit for building modeling frameworks (part of Rails).&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/arel-7.1.4" name="arel" version="7.1.4" timestamp="1489021458885" parser_version="15" git="false">
+          <additional_info authors="&quot;Aaron Patterson&quot;.freeze, &quot;Bryan Helmkamp&quot;.freeze, &quot;Emilio Tagua&quot;.freeze, &quot;Nick Kallen&quot;.freeze" email="&quot;aaron@tenderlovemaking.com&quot;.freeze, &quot;bryan@brynary.com&quot;.freeze, &quot;miloops@gmail.com&quot;.freeze" homepage="https://github.com/rails/arel">
+            <summary>&quot;Arel Really Exasperates Logicians  Arel is a SQL AST manager for Ruby&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-1.0.3" name="compass" version="1.0.3" timestamp="1489662773626" parser_version="15" git="false">
+          <additional_info authors="&quot;Chris Eppstein&quot;.freeze, &quot;Scott Davis&quot;.freeze, &quot;Eric M. Suzanne&quot;.freeze, &quot;Brandon Mathis&quot;.freeze, &quot;Nico Hagenburger&quot;.freeze" email="&quot;chris@eppsteins.net&quot;.freeze" homepage="http://compass-style.org">
+            <summary>&quot;A Real Stylesheet Framework&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="sass" git="false" path="false" doRequire="true">
+            <bound version="3.3.13" bound="GREATER_OR_EQUAL" />
+            <bound version="3.5" bound="LESS" />
+          </dependency>
+          <dependency name="compass-core" git="false" path="false" doRequire="true">
+            <bound version="1.0.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="compass-import-once" git="false" path="false" doRequire="true">
+            <bound version="1.0.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="chunky_png" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rb-fsevent" git="false" path="false" doRequire="true">
+            <bound version="0.9.3" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="rb-inotify" git="false" path="false" doRequire="true">
+            <bound version="0.9" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/mime-types-data-3.2016.0521" name="mime-types-data" version="3.2016.0521" timestamp="1489021484555" parser_version="15" git="false">
+          <additional_info authors="&quot;Austin Ziegler&quot;.freeze" email="&quot;halostatue@gmail.com&quot;.freeze" homepage="https://github.com/mime-types/mime-types-data/">
+            <summary>&quot;mime-types-data provides a registry for information about MIME media type definitions&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/daemons-1.2.4" name="daemons" version="1.2.4" timestamp="1492828197850" parser_version="15" git="false">
+          <additional_info authors="&quot;Thomas Uehlinger&quot;.freeze" email="&quot;thomas.uehinger@gmail.com&quot;.freeze" homepage="https://github.com/thuehlinger/daemons">
+            <summary>&quot;A toolkit to create and control daemons in different ways&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/net-telnet-0.1.1" name="net-telnet" version="0.1.1" timestamp="1480676060000" parser_version="15" git="false">
+          <additional_info authors="&quot;SHIBATA Hiroshi&quot;.freeze" email="&quot;hsbt@ruby-lang.org&quot;.freeze" homepage="https://github.com/ruby/net-telnet">
+            <summary>&quot;Provides telnet client functionality.&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actioncable-5.0.2" name="actioncable" version="5.0.2" timestamp="1489056266337" parser_version="15" git="false">
+          <additional_info authors="&quot;Pratik Naik&quot;.freeze, &quot;David Heinemeier Hansson&quot;.freeze" email="&quot;pratiknaik@gmail.com&quot;.freeze, &quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;WebSocket framework for Rails.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="nio4r" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="GREATER_OR_EQUAL" />
+            <bound version="3.0" bound="LESS" />
+          </dependency>
+          <dependency name="websocket-driver" git="false" path="false" doRequire="true">
+            <bound version="0.6.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/activerecord-5.0.2" name="activerecord" version="5.0.2" timestamp="1489056257116" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;Object-relational mapper framework (part of Rails).&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="activemodel" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="arel" git="false" path="false" doRequire="true">
+            <bound version="7.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rails-dom-testing-2.0.2" name="rails-dom-testing" version="2.0.2" timestamp="1489021442895" parser_version="15" git="false">
+          <additional_info authors="&quot;Rafael Mendon\u{e7}a Fran\u{e7}a&quot;.freeze, &quot;Kasper Timm Hansen&quot;.freeze" email="&quot;rafaelmfranca@gmail.com&quot;.freeze, &quot;kaspth@gmail.com&quot;.freeze" homepage="https://github.com/rails/rails-dom-testing">
+            <summary>&quot;Dom and Selector assertions for Rails applications&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="nokogiri" git="false" path="false" doRequire="true">
+            <bound version="1.6" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="4.2.0" bound="GREATER_OR_EQUAL" />
+            <bound version="6.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/responders-2.3.0" name="responders" version="2.3.0" timestamp="1489772371498" parser_version="15" git="false">
+          <additional_info authors="&quot;Jos\u{e9} Valim&quot;.freeze" email="&quot;contact@plataformatec.com.br&quot;.freeze" homepage="http://github.com/plataformatec/responders">
+            <summary>&quot;A set of Rails responders to dry up your application&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="4.2.0" bound="GREATER_OR_EQUAL" />
+            <bound version="5.1" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/method_source-0.8.2" name="method_source" version="0.8.2" timestamp="1489021547498" parser_version="15" git="false">
+          <additional_info authors="&quot;John Mair (banisterfiend)&quot;.freeze" email="&quot;jrmair@gmail.com&quot;.freeze" homepage="http://banisterfiend.wordpress.com">
+            <summary>&quot;retrieve the sourcecode for a method&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/ckeditor-4.2.2" name="ckeditor" version="4.2.2" timestamp="1489765192974" parser_version="15" git="false">
+          <additional_info authors="&quot;Igor Galeta&quot;.freeze" email="&quot;galeta.igor@gmail.com&quot;.freeze" homepage="https://github.com/galetahub/ckeditor">
+            <summary>&quot;Rails gem for easy integration ckeditor in your application&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="cocaine" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="orm_adapter" git="false" path="false" doRequire="true">
+            <bound version="0.5.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/activerecord-5.0.0.1" name="activerecord" version="5.0.0.1" timestamp="1489021463075" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;Object-relational mapper framework (part of Rails).&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="activemodel" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="arel" git="false" path="false" doRequire="true">
+            <bound version="7.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5" name="compass-import-once" version="1.0.5" timestamp="1489646664889" parser_version="15" git="false">
+          <additional_info authors="&quot;Chris Eppstein&quot;.freeze" email="&quot;chris@eppsteins.net&quot;.freeze" homepage="https://github.com/chriseppstein/compass/tree/master/import-once">
+            <summary>&quot;Speed up your Sass compilation by making @import only import each file once.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="sass" git="false" path="false" doRequire="true">
+            <bound version="3.2" bound="GREATER_OR_EQUAL" />
+            <bound version="3.5" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionview-5.0.0.1" name="actionview" version="5.0.0.1" timestamp="1489021452973" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;Rendering framework putting the V in MVC (part of Rails).&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="builder" git="false" path="false" doRequire="true">
+            <bound version="3.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="erubis" git="false" path="false" doRequire="true">
+            <bound version="2.7.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rails-html-sanitizer" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+            <bound version="1.0.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="rails-dom-testing" git="false" path="false" doRequire="true">
+            <bound version="2.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.0.0" name="turbolinks-source" version="5.0.0" timestamp="1489056231621" parser_version="15" git="false">
+          <additional_info authors="&quot;Sam Stephenson&quot;.freeze" email="&quot;sstephenson@gmail.com&quot;.freeze" homepage="https://github.com/turbolinks/turbolinks-source-gem">
+            <summary>&quot;Turbolinks JavaScript assets&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/carrierwave-1.0.0" name="carrierwave" version="1.0.0" timestamp="1489784637634" parser_version="15" git="false">
+          <additional_info authors="&quot;Jonas Nicklas&quot;.freeze" email="&quot;jonas.nicklas@gmail.com&quot;.freeze" homepage="https://github.com/carrierwaveuploader/carrierwave">
+            <summary>&quot;Ruby file upload library&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="4.0.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="activemodel" git="false" path="false" doRequire="true">
+            <bound version="4.0.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="mime-types" git="false" path="false" doRequire="true">
+            <bound version="1.16" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/mini_portile2-2.1.0" name="mini_portile2" version="2.1.0" timestamp="1489021421317" parser_version="15" git="false">
+          <additional_info authors="&quot;Luis Lavena&quot;.freeze, &quot;Mike Dalessio&quot;.freeze, &quot;Lars Kanis&quot;.freeze" email="&quot;mike.dalessio@gmail.com&quot;.freeze" homepage="http://github.com/flavorjones/mini_portile">
+            <summary>&quot;Simplistic port-like solution for developers&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.0.3" name="turbolinks-source" version="5.0.3" timestamp="1494725875649" parser_version="15" git="false">
+          <additional_info authors="&quot;Sam Stephenson&quot;.freeze" email="&quot;sstephenson@gmail.com&quot;.freeze" homepage="https://github.com/turbolinks/turbolinks-source-gem">
+            <summary>&quot;Turbolinks JavaScript assets&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/chunky_png-1.3.8" name="chunky_png" version="1.3.8" timestamp="1489646667728" parser_version="15" git="false">
+          <additional_info authors="&quot;Willem van Bergen&quot;.freeze" email="&quot;willem@railsdoctors.com&quot;.freeze" homepage="http://wiki.github.com/wvanbergen/chunky_png">
+            <summary>&quot;Pure ruby library for read/write, chunk-level access to PNG files&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/devise-4.2.1" name="devise" version="4.2.1" timestamp="1489772380893" parser_version="15" git="false">
+          <additional_info authors="&quot;Jos\u{e9} Valim&quot;.freeze, &quot;Carlos Ant\u{f4}nio&quot;.freeze" email="&quot;contact@plataformatec.com.br&quot;.freeze" homepage="https://github.com/plataformatec/devise">
+            <summary>&quot;Flexible authentication solution for Rails with Warden&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="warden" git="false" path="false" doRequire="true">
+            <bound version="1.2.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="orm_adapter" git="false" path="false" doRequire="true">
+            <bound version="0.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="bcrypt" git="false" path="false" doRequire="true">
+            <bound version="3.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="4.1.0" bound="GREATER_OR_EQUAL" />
+            <bound version="5.1" bound="LESS" />
+          </dependency>
+          <dependency name="responders" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/skinny-0.2.4" name="skinny" version="0.2.4" timestamp="1492828241702" parser_version="15" git="false">
+          <additional_info authors="&quot;Samuel Cochran&quot;.freeze" email="&quot;sj26@sj26.com&quot;.freeze" homepage="http://github.com/sj26/skinny">
+            <summary>&quot;Thin WebSockets&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="eventmachine" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="thin" git="false" path="false" doRequire="true">
+            <bound version="1.5" bound="GREATER_OR_EQUAL" />
+            <bound version="1.7" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rack-test-0.6.3" name="rack-test" version="0.6.3" timestamp="1489021420373" parser_version="15" git="false">
+          <additional_info authors="&quot;Bryan Helmkamp&quot;.freeze" email="&quot;bryan@brynary.com&quot;.freeze" homepage="http://github.com/brynary/rack-test">
+            <summary>&quot;Simple testing API built on Rack&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/websocket-extensions-0.1.2" name="websocket-extensions" version="0.1.2" timestamp="1489021534811" parser_version="15" git="false">
+          <additional_info authors="&quot;James Coglan&quot;.freeze" email="&quot;jcoglan@gmail.com&quot;.freeze" homepage="http://github.com/faye/websocket-extensions-ruby">
+            <summary>&quot;Generic extension manager for WebSocket connections&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/ffi-1.9.18-x64-mingw32" name="ffi" version="1.9.18" timestamp="1489646674048" parser_version="15" git="false">
+          <additional_info authors="&quot;Wayne Meissner&quot;.freeze" email="&quot;wmeissner@gmail.com&quot;.freeze" homepage="http://wiki.github.com/ffi/ffi">
+            <summary>&quot;Ruby FFI&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/uglifier-3.1.5" name="uglifier" version="3.1.5" timestamp="1489056234719" parser_version="15" git="false">
+          <additional_info authors="&quot;Ville Lautanala&quot;.freeze" email="&quot;lautis@gmail.com&quot;.freeze" homepage="http://github.com/lautis/uglifier">
+            <summary>&quot;Ruby wrapper for UglifyJS JavaScript compressor&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="execjs" git="false" path="false" doRequire="true">
+            <bound version="0.3.0" bound="GREATER_OR_EQUAL" />
+            <bound version="3" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/mini_magick-4.6.1" name="mini_magick" version="4.6.1" timestamp="1489784634862" parser_version="15" git="false">
+          <additional_info authors="&quot;Corey Johnson&quot;.freeze, &quot;Hampton Catlin&quot;.freeze, &quot;Peter Kieltyka&quot;.freeze, &quot;James Miller&quot;.freeze, &quot;Thiago Fernandes Massa&quot;.freeze, &quot;Janko Marohni\u{107}&quot;.freeze" email="&quot;probablycorey@gmail.com&quot;.freeze, &quot;hcatlin@gmail.com&quot;.freeze, &quot;peter@nulayer.com&quot;.freeze, &quot;bensie@gmail.com&quot;.freeze, &quot;thiagown@gmail.com&quot;.freeze, &quot;janko.marohnic@gmail.com&quot;.freeze" homepage="https://github.com/minimagick/minimagick">
+            <summary>&quot;Manipulate images with minimal use of memory via ImageMagick / GraphicsMagick&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/activesupport-5.0.2" name="activesupport" version="5.0.2" timestamp="1489056239767" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="i18n" git="false" path="false" doRequire="true">
+            <bound version="0.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="tzinfo" git="false" path="false" doRequire="true">
+            <bound version="1.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="minitest" git="false" path="false" doRequire="true">
+            <bound version="5.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="concurrent-ruby" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+            <bound version="1.0.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/orm_adapter-0.5.0" name="orm_adapter" version="0.5.0" timestamp="1489765178568" parser_version="15" git="false">
+          <additional_info authors="&quot;Ian White&quot;.freeze, &quot;Jose Valim&quot;.freeze" email="&quot;ian.w.white@gmail.com&quot;.freeze" homepage="http://github.com/ianwhite/orm_adapter">
+            <summary>&quot;orm_adapter provides a single point of entry for using basic features of popular ruby ORMs.  Its target audience is gem authors who want to support many ruby ORMs.&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/activesupport-5.0.3" name="activesupport" version="5.0.3" timestamp="1494726033572" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="i18n" git="false" path="false" doRequire="true">
+            <bound version="0.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="tzinfo" git="false" path="false" doRequire="true">
+            <bound version="1.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="minitest" git="false" path="false" doRequire="true">
+            <bound version="5.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="concurrent-ruby" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+            <bound version="1.0.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/uglifier-3.1.7" name="uglifier" version="3.1.7" timestamp="1489399146705" parser_version="15" git="false">
+          <additional_info authors="&quot;Ville Lautanala&quot;.freeze" email="&quot;lautis@gmail.com&quot;.freeze" homepage="http://github.com/lautis/uglifier">
+            <summary>&quot;Ruby wrapper for UglifyJS JavaScript compressor&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="execjs" git="false" path="false" doRequire="true">
+            <bound version="0.3.0" bound="GREATER_OR_EQUAL" />
+            <bound version="3" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/uglifier-3.1.6" name="uglifier" version="3.1.6" timestamp="1489106367564" parser_version="15" git="false">
+          <additional_info authors="&quot;Ville Lautanala&quot;.freeze" email="&quot;lautis@gmail.com&quot;.freeze" homepage="http://github.com/lautis/uglifier">
+            <summary>&quot;Ruby wrapper for UglifyJS JavaScript compressor&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="execjs" git="false" path="false" doRequire="true">
+            <bound version="0.3.0" bound="GREATER_OR_EQUAL" />
+            <bound version="3" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/minitest-5.10.1" name="minitest" version="5.10.1" timestamp="1489056173047" parser_version="15" git="false">
+          <additional_info authors="&quot;Ryan Davis&quot;.freeze" email="&quot;ryand-ruby@zenspider.com&quot;.freeze" homepage="https://github.com/seattlerb/minitest">
+            <summary>&quot;minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/tzinfo-1.2.3" name="tzinfo" version="1.2.3" timestamp="1491096943663" parser_version="15" git="false">
+          <additional_info authors="&quot;Philip Ross&quot;.freeze" email="&quot;phil.ross@gmail.com&quot;.freeze" homepage="http://tzinfo.github.io">
+            <summary>&quot;Daylight savings aware timezone library&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="thread_safe" git="false" path="false" doRequire="true">
+            <bound version="0.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/jquery-rails-4.2.2" name="jquery-rails" version="4.2.2" timestamp="1489056277113" parser_version="15" git="false">
+          <additional_info authors="&quot;Andr\u{e9} Arko&quot;.freeze" email="&quot;andre@arko.net&quot;.freeze" homepage="https://github.com/rails/jquery-rails">
+            <summary>&quot;Use jQuery with Rails 4+&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="4.2.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="thor" git="false" path="false" doRequire="true">
+            <bound version="0.14" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="rails-dom-testing" git="false" path="false" doRequire="true">
+            <bound version="1" bound="GREATER_OR_EQUAL" />
+            <bound version="3" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/tzinfo-1.2.2" name="tzinfo" version="1.2.2" timestamp="1489021409940" parser_version="15" git="false">
+          <additional_info authors="&quot;Philip Ross&quot;.freeze" email="&quot;phil.ross@gmail.com&quot;.freeze" homepage="http://tzinfo.github.io">
+            <summary>&quot;Daylight savings aware timezone library&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="thread_safe" git="false" path="false" doRequire="true">
+            <bound version="0.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/jquery-rails-4.2.1" name="jquery-rails" version="4.2.1" timestamp="1491239210868" parser_version="15" git="false">
+          <additional_info authors="&quot;Andr\u{e9} Arko&quot;.freeze" email="&quot;andre@arko.net&quot;.freeze" homepage="https://github.com/rails/jquery-rails">
+            <summary>&quot;Use jQuery with Rails 4+&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="4.2.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="thor" git="false" path="false" doRequire="true">
+            <bound version="0.14" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="rails-dom-testing" git="false" path="false" doRequire="true">
+            <bound version="1" bound="GREATER_OR_EQUAL" />
+            <bound version="3" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/execjs-2.7.0" name="execjs" version="2.7.0" timestamp="1489056201823" parser_version="15" git="false">
+          <additional_info authors="&quot;Sam Stephenson&quot;.freeze, &quot;Josh Peek&quot;.freeze" email="&quot;sstephenson@gmail.com&quot;.freeze, &quot;josh@joshpeek.com&quot;.freeze" homepage="https://github.com/rails/execjs">
+            <summary>&quot;Run JavaScript code from Ruby&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/minitest-5.10.2" name="minitest" version="5.10.2" timestamp="1494725759558" parser_version="15" git="false">
+          <additional_info authors="&quot;Ryan Davis&quot;.freeze" email="&quot;ryand-ruby@zenspider.com&quot;.freeze" homepage="https://github.com/seattlerb/minitest">
+            <summary>&quot;minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/coffee-script-2.4.1" name="coffee-script" version="2.4.1" timestamp="1489056232662" parser_version="15" git="false">
+          <additional_info authors="&quot;Jeremy Ashkenas&quot;.freeze, &quot;Joshua Peek&quot;.freeze, &quot;Sam Stephenson&quot;.freeze" email="&quot;josh@joshpeek.com&quot;.freeze" homepage="http://github.com/josh/ruby-coffee-script">
+            <summary>&quot;Ruby CoffeeScript Compiler&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="coffee-script-source" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="execjs" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/activesupport-5.0.0.1" name="activesupport" version="5.0.0.1" timestamp="1489021416157" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="i18n" git="false" path="false" doRequire="true">
+            <bound version="0.7" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="tzinfo" git="false" path="false" doRequire="true">
+            <bound version="1.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="minitest" git="false" path="false" doRequire="true">
+            <bound version="5.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="concurrent-ruby" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+            <bound version="1.0.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/activejob-5.0.0.1" name="activejob" version="5.0.0.1" timestamp="1489021465597" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;Job framework with pluggable queues.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="globalid" git="false" path="false" doRequire="true">
+            <bound version="0.3.6" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/nio4r-2.0.0" name="nio4r" version="2.0.0" timestamp="1489056198902" parser_version="15" git="false">
+          <additional_info authors="&quot;Tony Arcieri&quot;.freeze" email="&quot;bascule@gmail.com&quot;.freeze" homepage="https://github.com/socketry/nio4r">
+            <summary>&quot;New IO for Ruby&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5" name="concurrent-ruby" version="1.0.5" timestamp="1489021411992" parser_version="15" git="false">
+          <additional_info authors="&quot;Jerry D'Antonio&quot;.freeze, &quot;Petr Chalupa&quot;.freeze, &quot;The Ruby Concurrency Team&quot;.freeze" email="&quot;concurrent-ruby@googlegroups.com&quot;.freeze" homepage="http://www.concurrent-ruby.com">
+            <summary>&quot;Modern concurrency tools for Ruby. Inspired by Erlang, Clojure, Scala, Haskell, F#, C#, Java, and classic concurrency patterns.&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/debug_inspector-0.0.2" name="debug_inspector" version="0.0.2" timestamp="1489056206188" parser_version="15" git="false">
+          <additional_info authors="&quot;John Mair (banisterfiend)&quot;.freeze" email="&quot;jrmair@gmail.com&quot;.freeze" homepage="https://github.com/banister/debug_inspector">
+            <summary>&quot;A Ruby wrapper for the MRI 2.0 debug_inspector API&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/nio4r-1.2.1" name="nio4r" version="1.2.1" timestamp="1489021532471" parser_version="15" git="false">
+          <additional_info authors="&quot;Tony Arcieri&quot;.freeze" email="&quot;tony.arcieri@gmail.com&quot;.freeze" homepage="https://github.com/celluloid/nio4r">
+            <summary>&quot;NIO provides a high performance selector API for monitoring IO objects&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/turbolinks-5.0.1" name="turbolinks" version="5.0.1" timestamp="1489056235633" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="https://github.com/turbolinks/turbolinks">
+            <summary>&quot;Turbolinks makes navigating your web application faster&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="turbolinks-source" git="false" path="false" doRequire="true">
+            <bound version="5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sqlite3-1.3.13-x64-mingw32" name="sqlite3" version="1.3.13" timestamp="1489055803330" parser_version="15" git="false">
+          <additional_info authors="&quot;Jamis Buck&quot;.freeze, &quot;Luis Lavena&quot;.freeze, &quot;Aaron Patterson&quot;.freeze" email="&quot;jamis@37signals.com&quot;.freeze, &quot;luislavena@gmail.com&quot;.freeze, &quot;aaron@tenderlovemaking.com&quot;.freeze" homepage="https://github.com/sparklemotion/sqlite3-ruby">
+            <summary>&quot;This module allows Ruby programs to interface with the SQLite3 database engine (http://www.sqlite.org)&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/warden-1.2.7" name="warden" version="1.2.7" timestamp="1489772368364" parser_version="15" git="false">
+          <additional_info authors="&quot;Daniel Neighman&quot;.freeze" email="&quot;has.sox@gmail.com&quot;.freeze" homepage="http://github.com/hassox/warden">
+            <summary>&quot;Rack middleware that provides authentication for rack applications&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/nokogiri-1.7.1-x64-mingw32" name="nokogiri" version="1.7.1" timestamp="1491097015785" parser_version="15" git="false">
+          <additional_info authors="&quot;Aaron Patterson&quot;.freeze, &quot;Mike Dalessio&quot;.freeze, &quot;Yoko Harada&quot;.freeze, &quot;Tim Elliott&quot;.freeze, &quot;Akinori MUSHA&quot;.freeze" email="&quot;aaronp@rubyforge.org&quot;.freeze, &quot;mike.dalessio@gmail.com&quot;.freeze, &quot;yokolet@gmail.com&quot;.freeze, &quot;tle@holymonkey.com&quot;.freeze, &quot;knu@idaemons.org&quot;.freeze" homepage="http://nokogiri.org">
+            <summary>&quot;Nokogiri (\u{92f8}) is an HTML, XML, SAX, and Reader parser&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="mini_portile2" git="false" path="false" doRequire="true">
+            <bound version="2.1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/multi_json-1.12.1" name="multi_json" version="1.12.1" timestamp="1489056207496" parser_version="15" git="false">
+          <additional_info authors="&quot;Michael Bleigh&quot;.freeze, &quot;Josh Kalderimis&quot;.freeze, &quot;Erik Michaels-Ober&quot;.freeze, &quot;Pavel Pravosud&quot;.freeze" email="&quot;michael@intridea.com&quot;.freeze, &quot;josh.kalderimis@gmail.com&quot;.freeze, &quot;sferik@gmail.com&quot;.freeze, &quot;pavel@pravosud.com&quot;.freeze" homepage="http://github.com/intridea/multi_json">
+            <summary>&quot;A common interface to multiple JSON libraries.&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionmailer-5.0.2" name="actionmailer" version="5.0.2" timestamp="1489056267668" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;Email composition, delivery, and receiving framework (part of Rails).&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="actionview" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="activejob" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="mail" git="false" path="false" doRequire="true">
+            <bound version="2.5" bound="LATEST_IN_BRANCH" />
+            <bound version="2.5.4" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="rails-dom-testing" git="false" path="false" doRequire="true">
+            <bound version="2.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/uglifier-3.2.0" name="uglifier" version="3.2.0" timestamp="1494725990958" parser_version="15" git="false">
+          <additional_info authors="&quot;Ville Lautanala&quot;.freeze" email="&quot;lautis@gmail.com&quot;.freeze" homepage="http://github.com/lautis/uglifier">
+            <summary>&quot;Ruby wrapper for UglifyJS JavaScript compressor&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="execjs" git="false" path="false" doRequire="true">
+            <bound version="0.3.0" bound="GREATER_OR_EQUAL" />
+            <bound version="3" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionview-5.0.2" name="actionview" version="5.0.2" timestamp="1489056259625" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;Rendering framework putting the V in MVC (part of Rails).&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="builder" git="false" path="false" doRequire="true">
+            <bound version="3.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="erubis" git="false" path="false" doRequire="true">
+            <bound version="2.7.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rails-html-sanitizer" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+            <bound version="1.0.3" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="rails-dom-testing" git="false" path="false" doRequire="true">
+            <bound version="2.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/thread_safe-0.3.6" name="thread_safe" version="0.3.6" timestamp="1489021407656" parser_version="15" git="false">
+          <additional_info authors="&quot;Charles Oliver Nutter&quot;.freeze, &quot;thedarkone&quot;.freeze" email="&quot;headius@headius.com&quot;.freeze, &quot;thedarkone2@gmail.com&quot;.freeze" homepage="https://github.com/ruby-concurrency/thread_safe">
+            <summary>&quot;Thread-safe collections and utilities for Ruby&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/railties-5.0.0.1" name="railties" version="5.0.0.1" timestamp="1489021558386" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;Tools for creating, working with, and running Rails applications.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="rake" git="false" path="false" doRequire="true">
+            <bound version="0.8.7" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="thor" git="false" path="false" doRequire="true">
+            <bound version="0.18.1" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="method_source" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rake-12.0.0" name="rake" version="12.0.0" timestamp="1489056171566" parser_version="15" git="false">
+          <additional_info authors="&quot;Hiroshi SHIBATA&quot;.freeze, &quot;Eric Hodel&quot;.freeze, &quot;Jim Weirich&quot;.freeze" email="&quot;hsbt@ruby-lang.org&quot;.freeze, &quot;drbrain@segment7.net&quot;.freeze, &quot;&quot;.freeze" homepage="https://github.com/ruby/rake">
+            <summary>&quot;Rake is a Make-like program implemented in Ruby&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/autoprefixer-rails-7.0.1" name="autoprefixer-rails" version="7.0.1" timestamp="1494725982811" parser_version="15" git="false">
+          <additional_info authors="&quot;Andrey Sitnik&quot;.freeze" email="&quot;andrey@sitnik.ru&quot;.freeze" homepage="https://github.com/ai/autoprefixer-rails">
+            <summary>&quot;Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="execjs" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/2.3.0" name="io-console" version="0.4.5" timestamp="0" parser_version="15" git="false">
+          <additional_info authors="N/A" email="N/A" homepage="N/A">
+            <summary>This io-console is bundled with Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/activejob-5.0.2" name="activejob" version="5.0.2" timestamp="1489056253507" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;Job framework with pluggable queues.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="globalid" git="false" path="false" doRequire="true">
+            <bound version="0.3.6" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/puma-3.7.1" name="puma" version="3.7.1" timestamp="1489056223319" parser_version="15" git="false">
+          <additional_info authors="&quot;Evan Phoenix&quot;.freeze" email="&quot;evan@phx.io&quot;.freeze" homepage="http://puma.io">
+            <summary>&quot;Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack applications&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.1" name="coffee-rails" version="4.2.1" timestamp="1489056273299" parser_version="15" git="false">
+          <additional_info authors="&quot;Santiago Pastorino&quot;.freeze" email="&quot;santiago@wyeworks.com&quot;.freeze" homepage="https://github.com/rails/coffee-rails">
+            <summary>&quot;CoffeeScript adapter for the Rails asset pipeline.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="coffee-script" git="false" path="false" doRequire="true">
+            <bound version="2.2.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="4.0.0" bound="GREATER_OR_EQUAL" />
+            <bound version="5.2.x" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actioncable-5.0.0.1" name="actioncable" version="5.0.0.1" timestamp="1489021543954" parser_version="15" git="false">
+          <additional_info authors="&quot;Pratik Naik&quot;.freeze, &quot;David Heinemeier Hansson&quot;.freeze" email="&quot;pratiknaik@gmail.com&quot;.freeze, &quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;WebSocket framework for Rails.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="nio4r" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="websocket-driver" git="false" path="false" doRequire="true">
+            <bound version="0.6.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/web-console-3.5.0" name="web-console" version="3.5.0" timestamp="1491097052299" parser_version="15" git="false">
+          <additional_info authors="&quot;Charlie Somerville&quot;.freeze, &quot;Genadi Samokovarov&quot;.freeze, &quot;Guillermo Iguaran&quot;.freeze, &quot;Ryan Dao&quot;.freeze" email="&quot;charlie@charliesomerville.com&quot;.freeze, &quot;gsamokovarov@gmail.com&quot;.freeze, &quot;guilleiguaran@gmail.com&quot;.freeze, &quot;daoduyducduong@gmail.com&quot;.freeze" homepage="https://github.com/rails/web-console">
+            <summary>&quot;A debugging tool for your Ruby on Rails applications.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="5.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="activemodel" git="false" path="false" doRequire="true">
+            <bound version="5.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="actionview" git="false" path="false" doRequire="true">
+            <bound version="5.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="bindex" git="false" path="false" doRequire="true">
+            <bound version="0.4.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/thin-1.5.1" name="thin" version="1.5.1" timestamp="1492828216444" parser_version="15" git="false">
+          <additional_info authors="&quot;Marc-Andre Cournoyer&quot;.freeze" email="&quot;macournoyer@gmail.com&quot;.freeze" homepage="http://code.macournoyer.com/thin/">
+            <summary>&quot;A thin and fast web server&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="eventmachine" git="false" path="false" doRequire="true">
+            <bound version="0.12.6" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="daemons" git="false" path="false" doRequire="true">
+            <bound version="1.0.9" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rails-5.0.2" name="rails" version="5.0.2" timestamp="1489056279483" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;Full-stack web application framework.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="actionview" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="activemodel" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="activerecord" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="actionmailer" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="activejob" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="actioncable" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="bundler" git="false" path="false" doRequire="true">
+            <bound version="1.3.0" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="sprockets-rails" git="false" path="false" doRequire="true">
+            <bound version="2.0.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2" name="actionpack" version="5.0.2" timestamp="1489056264462" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;Web-flow and rendering framework putting the VC in MVC (part of Rails).&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="2.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rack-test" git="false" path="false" doRequire="true">
+            <bound version="0.6.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rails-html-sanitizer" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+            <bound version="1.0.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="rails-dom-testing" git="false" path="false" doRequire="true">
+            <bound version="2.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="actionview" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rack-1.6.5" name="rack" version="1.6.5" timestamp="1492828185191" parser_version="15" git="false">
+          <additional_info authors="&quot;Christian Neukirchen&quot;.freeze" email="&quot;chneukirchen@gmail.com&quot;.freeze" homepage="http://rack.github.io/">
+            <summary>&quot;a modular Ruby webserver interface&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/jquery-rails-4.3.1" name="jquery-rails" version="4.3.1" timestamp="1491097042088" parser_version="15" git="false">
+          <additional_info authors="&quot;Andr\u{e9} Arko&quot;.freeze" email="&quot;andre@arko.net&quot;.freeze" homepage="https://github.com/rails/jquery-rails">
+            <summary>&quot;Use jQuery with Rails 4+&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="4.2.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="thor" git="false" path="false" doRequire="true">
+            <bound version="0.14" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="rails-dom-testing" git="false" path="false" doRequire="true">
+            <bound version="1" bound="GREATER_OR_EQUAL" />
+            <bound version="3" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/loofah-2.0.3" name="loofah" version="2.0.3" timestamp="1489021441241" parser_version="15" git="false">
+          <additional_info authors="&quot;Mike Dalessio&quot;.freeze, &quot;Bryan Helmkamp&quot;.freeze" email="&quot;mike.dalessio@gmail.com&quot;.freeze, &quot;bryan@brynary.com&quot;.freeze" homepage="https://github.com/flavorjones/loofah">
+            <summary>&quot;Loofah is a general library for manipulating and transforming HTML/XML documents and fragments&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="nokogiri" git="false" path="false" doRequire="true">
+            <bound version="1.5.9" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23" name="sass" version="3.4.23" timestamp="1489662627072" parser_version="15" git="false">
+          <additional_info authors="&quot;Natalie Weizenbaum&quot;.freeze, &quot;Chris Eppstein&quot;.freeze, &quot;Hampton Catlin&quot;.freeze" email="&quot;sass-lang@googlegroups.com&quot;.freeze" homepage="http://sass-lang.com/">
+            <summary>&quot;A powerful but elegant CSS compiler that makes CSS fun again.&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/autoprefixer-rails-6.7.7.1" name="autoprefixer-rails" version="6.7.7.1" timestamp="1491097021837" parser_version="15" git="false">
+          <additional_info authors="&quot;Andrey Sitnik&quot;.freeze" email="&quot;andrey@sitnik.ru&quot;.freeze" homepage="https://github.com/ai/autoprefixer-rails">
+            <summary>&quot;Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="execjs" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/autoprefixer-rails-6.7.7" name="autoprefixer-rails" version="6.7.7" timestamp="1489493874492" parser_version="15" git="false">
+          <additional_info authors="&quot;Andrey Sitnik&quot;.freeze" email="&quot;andrey@sitnik.ru&quot;.freeze" homepage="https://github.com/ai/autoprefixer-rails">
+            <summary>&quot;Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="execjs" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionmailer-5.0.0.1" name="actionmailer" version="5.0.0.1" timestamp="1489021494908" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;Email composition, delivery, and receiving framework (part of Rails).&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="actionview" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="activejob" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="mail" git="false" path="false" doRequire="true">
+            <bound version="2.5" bound="LATEST_IN_BRANCH" />
+            <bound version="2.5.4" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="rails-dom-testing" git="false" path="false" doRequire="true">
+            <bound version="2.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rack-protection-1.5.3" name="rack-protection" version="1.5.3" timestamp="1492828189846" parser_version="15" git="false">
+          <additional_info authors="&quot;Konstantin Haase&quot;.freeze, &quot;Alex Rodionov&quot;.freeze, &quot;Patrick Ellis&quot;.freeze, &quot;Jason Staten&quot;.freeze, &quot;ITO Nobuaki&quot;.freeze, &quot;Jeff Welling&quot;.freeze, &quot;Matteo Centenaro&quot;.freeze, &quot;Egor Homakov&quot;.freeze, &quot;Florian Gilcher&quot;.freeze, &quot;Fojas&quot;.freeze, &quot;Igor Bochkariov&quot;.freeze, &quot;Mael Clerambault&quot;.freeze, &quot;Martin Mauch&quot;.freeze, &quot;Renne Nissinen&quot;.freeze, &quot;SAKAI, Kazuaki&quot;.freeze, &quot;Stanislav Savulchik&quot;.freeze, &quot;Steve Agalloco&quot;.freeze, &quot;TOBY&quot;.freeze, &quot;Thais Camilo and Konstantin Haase&quot;.freeze, &quot;Vipul A M&quot;.freeze, &quot;Akzhan Abdulin&quot;.freeze, &quot;brookemckim&quot;.freeze, &quot;Bj\u{f8}rge N\u{e6}ss&quot;.freeze, &quot;Chris Heald&quot;.freeze, &quot;Chris Mytton&quot;.freeze, &quot;Corey Ward&quot;.freeze, &quot;Dario Cravero&quot;.freeze, &quot;David Kellum&quot;.freeze" email="&quot;konstantin.mailinglists@googlemail.com&quot;.freeze, &quot;p0deje@gmail.com&quot;.freeze, &quot;jstaten07@gmail.com&quot;.freeze, &quot;patrick@soundcloud.com&quot;.freeze, &quot;jeff.welling@gmail.com&quot;.freeze, &quot;bugant@gmail.com&quot;.freeze, &quot;daydream.trippers@gmail.com&quot;.freeze, &quot;florian.gilcher@asquera.de&quot;.freeze, &quot;developer@fojasaur.us&quot;.freeze, &quot;ujifgc@gmail.com&quot;.freeze, &quot;mael@clerambault.fr&quot;.freeze, &quot;martin.mauch@gmail.com&quot;.freeze, &quot;rennex@iki.fi&quot;.freeze, &quot;kaz.july.7@gmail.com&quot;.freeze, &quot;s.savulchik@gmail.com&quot;.freeze, &quot;steve.agalloco@gmail.com&quot;.freeze, &quot;toby.net.info.mail+git@gmail.com&quot;.freeze, &quot;dev+narwen+rkh@rkh.im&quot;.freeze, &quot;vipulnsward@gmail.com&quot;.freeze, &quot;akzhan.abdulin@gmail.com&quot;.freeze, &quot;brooke@digitalocean.com&quot;.freeze, &quot;bjoerge@bengler.no&quot;.freeze, &quot;cheald@gmail.com&quot;.freeze, &quot;self@hecticjeff.net&quot;.freeze, &quot;coreyward@me.com&quot;.freeze, &quot;dario@uxtemple.com&quot;.freeze, &quot;dek-oss@gravitext.com&quot;.freeze, &quot;homakov@gmail.com&quot;.freeze" homepage="http://github.com/rkh/rack-protection">
+            <summary>&quot;You should use protection!&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rb-inotify-0.9.8" name="rb-inotify" version="0.9.8" timestamp="1489646675204" parser_version="15" git="false">
+          <additional_info authors="&quot;Nathan Weizenbaum&quot;.freeze" email="&quot;nex342@gmail.com&quot;.freeze" homepage="http://github.com/nex3/rb-inotify">
+            <summary>&quot;A Ruby wrapper for Linux's inotify, using FFI&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="ffi" git="false" path="false" doRequire="true">
+            <bound version="0.5.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/eventmachine-1.0.9.1" name="eventmachine" version="1.0.9.1" timestamp="1492828171226" parser_version="15" git="false">
+          <additional_info authors="&quot;Francis Cianfrocca&quot;.freeze, &quot;Aman Gupta&quot;.freeze" email="&quot;garbagecat10@gmail.com&quot;.freeze, &quot;aman@tmm1.net&quot;.freeze" homepage="http://rubyeventmachine.com">
+            <summary>&quot;Ruby/EventMachine library&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/websocket-driver-0.6.5" name="websocket-driver" version="0.6.5" timestamp="1489021540793" parser_version="15" git="false">
+          <additional_info authors="&quot;James Coglan&quot;.freeze" email="&quot;jcoglan@gmail.com&quot;.freeze" homepage="http://github.com/faye/websocket-driver-ruby">
+            <summary>&quot;WebSocket protocol handler with pluggable I/O&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="websocket-extensions" git="false" path="false" doRequire="true">
+            <bound version="0.1.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/minitest-5.8.5" name="minitest" version="5.8.5" timestamp="1480676060000" parser_version="15" git="false">
+          <additional_info authors="&quot;Ryan Davis&quot;.freeze" email="&quot;ryand-ruby@zenspider.com&quot;.freeze" homepage="https://github.com/seattlerb/minitest">
+            <summary>&quot;minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/coffee-script-source-1.12.2" name="coffee-script-source" version="1.12.2" timestamp="1489056200624" parser_version="15" git="false">
+          <additional_info authors="&quot;Jeremy Ashkenas&quot;.freeze" email="&quot;jashkenas@gmail.com&quot;.freeze" homepage="http://coffeescript.org">
+            <summary>&quot;The CoffeeScript Compiler&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1" name="actionpack" version="5.0.0.1" timestamp="1489021455958" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;Web-flow and rendering framework putting the VC in MVC (part of Rails).&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="2.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rack-test" git="false" path="false" doRequire="true">
+            <bound version="0.6.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rails-html-sanitizer" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+            <bound version="1.0.2" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="rails-dom-testing" git="false" path="false" doRequire="true">
+            <bound version="2.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="actionview" git="false" path="false" doRequire="true">
+            <bound version="5.0.0.1" bound="EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rails-html-sanitizer-1.0.3" name="rails-html-sanitizer" version="1.0.3" timestamp="1489021442121" parser_version="15" git="false">
+          <additional_info authors="&quot;Rafael Mendon\u{e7}a Fran\u{e7}a&quot;.freeze, &quot;Kasper Timm Hansen&quot;.freeze" email="&quot;rafaelmfranca@gmail.com&quot;.freeze, &quot;kaspth@gmail.com&quot;.freeze" homepage="https://github.com/rails/rails-html-sanitizer">
+            <summary>&quot;This gem is responsible to sanitize HTML fragments in Rails applications.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="loofah" git="false" path="false" doRequire="true">
+            <bound version="2.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cocaine-0.5.8" name="cocaine" version="0.5.8" timestamp="1489765180261" parser_version="15" git="false">
+          <additional_info authors="&quot;Jon Yurek&quot;.freeze" email="&quot;jyurek@thoughtbot.com&quot;.freeze" homepage="https://github.com/thoughtbot/cocaine">
+            <summary>&quot;A small library for doing (command) lines&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="climate_control" git="false" path="false" doRequire="true">
+            <bound version="0.0.3" bound="GREATER_OR_EQUAL" />
+            <bound version="1.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rake-10.4.2" name="rake" version="10.4.2" timestamp="1480676062000" parser_version="15" git="false">
+          <additional_info authors="&quot;Eric Hodel&quot;.freeze, &quot;Jim Weirich&quot;.freeze" email="&quot;drbrain@segment7.net&quot;.freeze, &quot;&quot;.freeze" homepage="https://github.com/ruby/rake">
+            <summary>&quot;Rake is a Make-like program implemented in Ruby&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rack-2.0.2" name="rack" version="2.0.2" timestamp="1494725798403" parser_version="15" git="false">
+          <additional_info authors="&quot;Christian Neukirchen&quot;.freeze" email="&quot;chneukirchen@gmail.com&quot;.freeze" homepage="http://rack.github.io/">
+            <summary>&quot;a modular Ruby webserver interface&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rack-2.0.1" name="rack" version="2.0.1" timestamp="1489021419353" parser_version="15" git="false">
+          <additional_info authors="&quot;Christian Neukirchen&quot;.freeze" email="&quot;chneukirchen@gmail.com&quot;.freeze" homepage="http://rack.github.io/">
+            <summary>&quot;a modular Ruby webserver interface&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/activemodel-5.0.2" name="activemodel" version="5.0.2" timestamp="1489056250002" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;A toolkit for building modeling frameworks (part of Rails).&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3" name="compass-core" version="1.0.3" timestamp="1489646663779" parser_version="15" git="false">
+          <additional_info authors="&quot;Chris Eppstein&quot;.freeze, &quot;Scott Davis&quot;.freeze, &quot;Eric M. Suzanne&quot;.freeze, &quot;Brandon Mathis&quot;.freeze" email="&quot;chris@eppsteins.net&quot;.freeze" homepage="http://compass-style.org/reference/compass/">
+            <summary>&quot;The Compass core stylesheet library&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="sass" git="false" path="false" doRequire="true">
+            <bound version="3.3.0" bound="GREATER_OR_EQUAL" />
+            <bound version="3.5" bound="LESS" />
+          </dependency>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/builder-3.2.3" name="builder" version="3.2.3" timestamp="1489021443816" parser_version="15" git="false">
+          <additional_info authors="&quot;Jim Weirich&quot;.freeze" email="&quot;jim.weirich@gmail.com&quot;.freeze" homepage="http://onestepback.org">
+            <summary>&quot;Builders for MarkUp.&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/railties-5.0.2" name="railties" version="5.0.2" timestamp="1489056272278" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://rubyonrails.org">
+            <summary>&quot;Tools for creating, working with, and running Rails applications.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="5.0.2" bound="EQUAL" />
+          </dependency>
+          <dependency name="rake" git="false" path="false" doRequire="true">
+            <bound version="0.8.7" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="thor" git="false" path="false" doRequire="true">
+            <bound version="0.18.1" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="method_source" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/puma-3.8.2" name="puma" version="3.8.2" timestamp="1489760179032" parser_version="15" git="false">
+          <additional_info authors="&quot;Evan Phoenix&quot;.freeze" email="&quot;evan@phx.io&quot;.freeze" homepage="http://puma.io">
+            <summary>&quot;Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack applications&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/puma-3.8.1" name="puma" version="3.8.1" timestamp="1489399144535" parser_version="15" git="false">
+          <additional_info authors="&quot;Evan Phoenix&quot;.freeze" email="&quot;evan@phx.io&quot;.freeze" homepage="http://puma.io">
+            <summary>&quot;Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack applications&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/jbuilder-2.6.3" name="jbuilder" version="2.6.3" timestamp="1489056252205" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@37signals.com&quot;.freeze" homepage="https://github.com/rails/jbuilder">
+            <summary>&quot;Create JSON structures via a Builder-style DSL&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.0.0" bound="GREATER_OR_EQUAL" />
+            <bound version="5.2" bound="LESS" />
+          </dependency>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/tzinfo-data-1.2017.1" name="tzinfo-data" version="1.2017.1" timestamp="1489056248368" parser_version="15" git="false">
+          <additional_info authors="&quot;Philip Ross&quot;.freeze" email="&quot;phil.ross@gmail.com&quot;.freeze" homepage="http://tzinfo.github.io">
+            <summary>&quot;Timezone Data for TZInfo&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="tzinfo" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sprockets-3.7.1" name="sprockets" version="3.7.1" timestamp="1489021603355" parser_version="15" git="false">
+          <additional_info authors="&quot;Sam Stephenson&quot;.freeze, &quot;Joshua Peek&quot;.freeze" email="&quot;sstephenson@gmail.com&quot;.freeze, &quot;josh@joshpeek.com&quot;.freeze" homepage="https://github.com/rails/sprockets">
+            <summary>&quot;Rack-based asset packaging system&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="1" bound="GREATER" />
+            <bound version="3" bound="LESS" />
+          </dependency>
+          <dependency name="concurrent-ruby" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/tzinfo-data-1.2017.2" name="tzinfo-data" version="1.2017.2" timestamp="1491097035518" parser_version="15" git="false">
+          <additional_info authors="&quot;Philip Ross&quot;.freeze" email="&quot;phil.ross@gmail.com&quot;.freeze" homepage="http://tzinfo.github.io">
+            <summary>&quot;Timezone Data for TZInfo&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="tzinfo" git="false" path="false" doRequire="true">
+            <bound version="1.0.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/puma-3.8.0" name="puma" version="3.8.0" timestamp="1489106364893" parser_version="15" git="false">
+          <additional_info authors="&quot;Evan Phoenix&quot;.freeze" email="&quot;evan@phx.io&quot;.freeze" homepage="http://puma.io">
+            <summary>&quot;Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack applications&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/mime-types-3.1" name="mime-types" version="3.1" timestamp="1489021486456" parser_version="15" git="false">
+          <additional_info authors="&quot;Austin Ziegler&quot;.freeze" email="&quot;halostatue@gmail.com&quot;.freeze" homepage="https://github.com/mime-types/ruby-mime-types/">
+            <summary>&quot;The mime-types library provides a library and registry for information about MIME content type definitions&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="mime-types-data" git="false" path="false" doRequire="true">
+            <bound version="3.2015" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/web-console-3.4.0" name="web-console" version="3.4.0" timestamp="1489056278704" parser_version="15" git="false">
+          <additional_info authors="&quot;Charlie Somerville&quot;.freeze, &quot;Genadi Samokovarov&quot;.freeze, &quot;Guillermo Iguaran&quot;.freeze, &quot;Ryan Dao&quot;.freeze" email="&quot;charlie@charliesomerville.com&quot;.freeze, &quot;gsamokovarov@gmail.com&quot;.freeze, &quot;guilleiguaran@gmail.com&quot;.freeze, &quot;daoduyducduong@gmail.com&quot;.freeze" homepage="https://github.com/rails/web-console">
+            <summary>&quot;A debugging tool for your Ruby on Rails applications.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="5.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="activemodel" git="false" path="false" doRequire="true">
+            <bound version="5.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="actionview" git="false" path="false" doRequire="true">
+            <bound version="5.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="debug_inspector" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/test-unit-3.1.5" name="test-unit" version="3.1.5" timestamp="1480676064000" parser_version="15" git="false">
+          <additional_info authors="&quot;Kouhei Sutou&quot;.freeze, &quot;Haruka Yoshihara&quot;.freeze" email="&quot;kou@cozmixng.org&quot;.freeze, &quot;yoshihara@clear-code.com&quot;.freeze" homepage="http://test-unit.github.io/">
+            <summary>&quot;An xUnit family unit testing framework for Ruby.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="power_assert" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rb-fsevent-0.9.8" name="rb-fsevent" version="0.9.8" timestamp="1489646668630" parser_version="15" git="false">
+          <additional_info authors="&quot;Thibaud Guillaume-Gentil&quot;.freeze, &quot;Travis Tilley&quot;.freeze" email="&quot;thibaud@thibaud.gg&quot;.freeze, &quot;ttilley@gmail.com&quot;.freeze" homepage="http://rubygems.org/gems/rb-fsevent">
+            <summary>&quot;Very simple &amp; usable FSEvents API&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/did_you_mean-1.0.0" name="did_you_mean" version="1.0.0" timestamp="1480676060000" parser_version="15" git="false">
+          <additional_info authors="&quot;Yuki Nishijima&quot;.freeze" email="&quot;mail@yukinishijima.net&quot;.freeze" homepage="https://github.com/yuki24/did_you_mean">
+            <summary>&quot;\&quot;Did you mean?\&quot; experience in Ruby&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/nokogiri-1.7.0.1-x64-mingw32" name="nokogiri" version="1.7.0.1" timestamp="1489021439289" parser_version="15" git="false">
+          <additional_info authors="&quot;Aaron Patterson&quot;.freeze, &quot;Mike Dalessio&quot;.freeze, &quot;Yoko Harada&quot;.freeze, &quot;Tim Elliott&quot;.freeze, &quot;Akinori MUSHA&quot;.freeze" email="&quot;aaronp@rubyforge.org&quot;.freeze, &quot;mike.dalessio@gmail.com&quot;.freeze, &quot;yokolet@gmail.com&quot;.freeze, &quot;tle@holymonkey.com&quot;.freeze, &quot;knu@idaemons.org&quot;.freeze" homepage="http://nokogiri.org">
+            <summary>&quot;Nokogiri (\u{92f8}) is an HTML, XML, SAX, and Reader parser&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="mini_portile2" git="false" path="false" doRequire="true">
+            <bound version="2.1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/bindex-0.5.0" name="bindex" version="0.5.0" timestamp="1491096935512" parser_version="15" git="false">
+          <additional_info authors="&quot;Genadi Samokovarov&quot;.freeze" email="&quot;gsamokovarov@gmail.com&quot;.freeze" homepage="https://github.com/gsamokovarov/bindex">
+            <summary>&quot;Bindings for your Ruby exceptions&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/erubis-2.7.0" name="erubis" version="2.7.0" timestamp="1489021446933" parser_version="15" git="false">
+          <additional_info authors="&quot;makoto kuwata&quot;.freeze" email="&quot;kwa(at)kuwata-lab.com&quot;.freeze" homepage="http://www.kuwata-lab.com/erubis/">
+            <summary>&quot;a fast and extensible eRuby implementation which supports multi-language&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/jquery-ui-rails-6.0.1" name="jquery-ui-rails" version="6.0.1" timestamp="1491093534967" parser_version="15" git="false">
+          <additional_info authors="&quot;Jo Liss&quot;.freeze" email="&quot;joliss42@gmail.com&quot;.freeze" homepage="https://github.com/joliss/jquery-ui-rails">
+            <summary>&quot;jQuery UI packaged for the Rails asset pipeline&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="3.2.16" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sinatra-1.4.8" name="sinatra" version="1.4.8" timestamp="1492828194310" parser_version="15" git="false">
+          <additional_info authors="&quot;Blake Mizerany&quot;.freeze, &quot;Ryan Tomayko&quot;.freeze, &quot;Simon Rozet&quot;.freeze, &quot;Konstantin Haase&quot;.freeze" email="&quot;sinatrarb@googlegroups.com&quot;.freeze" homepage="http://www.sinatrarb.com/">
+            <summary>&quot;Classy web-development dressed in a DSL&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="1.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="tilt" git="false" path="false" doRequire="true">
+            <bound version="1.3" bound="GREATER_OR_EQUAL" />
+            <bound version="3" bound="LESS" />
+          </dependency>
+          <dependency name="rack-protection" git="false" path="false" doRequire="true">
+            <bound version="1.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/bundler-1.14.6" name="bundler" version="1.14.6" timestamp="1489021585867" parser_version="15" git="false">
+          <additional_info authors="&quot;Andr\u{e9} Arko&quot;.freeze, &quot;Samuel Giddins&quot;.freeze, &quot;Chris Morris&quot;.freeze, &quot;James Wen&quot;.freeze, &quot;Tim Moore&quot;.freeze, &quot;Andr\u{e9} Medeiros&quot;.freeze, &quot;Jessica Lynn Suttles&quot;.freeze, &quot;Terence Lee&quot;.freeze, &quot;Carl Lerche&quot;.freeze, &quot;Yehuda Katz&quot;.freeze" email="&quot;team@bundler.io&quot;.freeze" homepage="http://bundler.io">
+            <summary>&quot;The best way to manage your application's dependencies&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/uglifier-3.1.12" name="uglifier" version="3.1.12" timestamp="1491097025835" parser_version="15" git="false">
+          <additional_info authors="&quot;Ville Lautanala&quot;.freeze" email="&quot;lautis@gmail.com&quot;.freeze" homepage="http://github.com/lautis/uglifier">
+            <summary>&quot;Ruby wrapper for UglifyJS JavaScript compressor&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="execjs" git="false" path="false" doRequire="true">
+            <bound version="0.3.0" bound="GREATER_OR_EQUAL" />
+            <bound version="3" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.7" name="bootstrap-sass" version="3.3.7" timestamp="1492388840949" parser_version="15" git="false">
+          <additional_info authors="&quot;Thomas McDonald&quot;.freeze" email="&quot;tom@conceptcoding.co.uk&quot;.freeze" homepage="https://github.com/twbs/bootstrap-sass">
+            <summary>&quot;bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="sass" git="false" path="false" doRequire="true">
+            <bound version="3.3.4" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="autoprefixer-rails" git="false" path="false" doRequire="true">
+            <bound version="5.2.1" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.2.0.2" name="bootstrap-sass" version="3.2.0.2" timestamp="1489594060021" parser_version="15" git="false">
+          <additional_info authors="&quot;Thomas McDonald&quot;.freeze" email="&quot;tom@conceptcoding.co.uk&quot;.freeze" homepage="https://github.com/twbs/bootstrap-sass">
+            <summary>&quot;Twitter's Bootstrap, converted to Sass and ready to drop into Rails or Compass&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="sass" git="false" path="false" doRequire="true">
+            <bound version="3.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/bcrypt-ruby-3.1.5-x64-mingw32" name="bcrypt-ruby" version="3.1.5" timestamp="1505527291191" parser_version="15" git="false">
+          <additional_info authors="&quot;Coda Hale&quot;.freeze" email="&quot;coda.hale@gmail.com&quot;.freeze" homepage="https://github.com/codahale/bcrypt-ruby">
+            <summary>&quot;OpenBSD's bcrypt() password hashing algorithm.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="bcrypt" git="false" path="false" doRequire="true">
+            <bound version="3.1.3" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/mailcatcher-0.6.5" name="mailcatcher" version="0.6.5" timestamp="1492828250536" parser_version="15" git="false">
+          <additional_info authors="&quot;Samuel Cochran&quot;.freeze" email="&quot;sj26@sj26.com&quot;.freeze" homepage="http://mailcatcher.me">
+            <summary>&quot;Runs an SMTP server, catches and displays email in a web interface.&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="eventmachine" git="false" path="false" doRequire="true">
+            <bound version="1.0.9.1" bound="EQUAL" />
+          </dependency>
+          <dependency name="mail" git="false" path="false" doRequire="true">
+            <bound version="2.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="1.5" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="sinatra" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="sqlite3" git="false" path="false" doRequire="true">
+            <bound version="1.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="thin" git="false" path="false" doRequire="true">
+            <bound version="1.5.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="skinny" git="false" path="false" doRequire="true">
+            <bound version="0.2.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/simple_form-3.4.0" name="simple_form" version="3.4.0" timestamp="1489494129781" parser_version="15" git="false">
+          <additional_info authors="&quot;Jos\u{e9} Valim&quot;.freeze, &quot;Carlos Ant\u{f4}nio&quot;.freeze, &quot;Rafael Fran\u{e7}a&quot;.freeze" email="&quot;opensource@plataformatec.com.br&quot;.freeze" homepage="https://github.com/plataformatec/simple_form">
+            <summary>&quot;Forms made easy!&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activemodel" git="false" path="false" doRequire="true">
+            <bound version="4" bound="GREATER" />
+            <bound version="5.1" bound="LESS" />
+          </dependency>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="4" bound="GREATER" />
+            <bound version="5.1" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/globalid-0.3.7" name="globalid" version="0.3.7" timestamp="1489021464113" parser_version="15" git="false">
+          <additional_info authors="&quot;David Heinemeier Hansson&quot;.freeze" email="&quot;david@loudthinking.com&quot;.freeze" homepage="http://www.rubyonrails.org">
+            <summary>&quot;Refer to any model with a URI: gid://app/class/id&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="4.1.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sprockets-rails-3.2.0" name="sprockets-rails" version="3.2.0" timestamp="1489021607411" parser_version="15" git="false">
+          <additional_info authors="&quot;Joshua Peek&quot;.freeze" email="&quot;josh@joshpeek.com&quot;.freeze" homepage="https://github.com/rails/sprockets-rails">
+            <summary>&quot;Sprockets Rails integration&quot;.freeze</summary>
+          </additional_info>
+          <dependency name="sprockets" git="false" path="false" doRequire="true">
+            <bound version="3.0.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="4.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="4.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/climate_control-0.1.0" name="climate_control" version="0.1.0" timestamp="1489765177272" parser_version="15" git="false">
+          <additional_info authors="&quot;Joshua Clayton&quot;.freeze" email="&quot;joshua.clayton@gmail.com&quot;.freeze" homepage="https://github.com/thoughtbot/climate_control">
+            <summary>&quot;Modify your ENV easily with ClimateControl&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+      </box>
+      <box url="file://$USER_HOME$/.gem/ruby/2.3.0/bundler/gems" />
+      <box url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/bundler/gems">
+        <gem url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/bundler/gems/bcrypt-ruby-23b0517e20e7" name="bcrypt" version="3.1.11" timestamp="1505528917171" parser_version="15" git="true" ref="23b0517e20e7">
+          <additional_info authors="&quot;Coda Hale&quot;.freeze" email="&quot;coda.hale@gmail.com&quot;.freeze" homepage="https://github.com/codahale/bcrypt-ruby">
+            <summary>&quot;OpenBSD's bcrypt() password hashing algorithm.&quot;.freeze</summary>
+          </additional_info>
+        </gem>
+      </box>
+    </sdk2gems>
+  </component>
+</application>
